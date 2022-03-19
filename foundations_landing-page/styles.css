@@ -113,10 +113,10 @@ nav li a {
 }
 
 nav li a:hover {
-  background-size: 0 2rem, 100% 2rem;
+  background-size: 0% 2rem, 100% 2rem;
 }
 section {
-  padding: 2rem 15rem 5rem;
+  padding: 2rem 17rem 5rem;
 }
 
 .row {
@@ -132,7 +132,7 @@ section {
 }
 
 .hero-section {
-  background: linear-gradient(to bottom, #1f2937, white);
+  background: linear-gradient(to bottom, #1f2937, #fafafa);
   margin: 0;
 }
 
@@ -224,7 +224,9 @@ section {
 }
 
 /* BUTTON */
-
+.info-section {
+  background: #fafafa;
+}
 /* From cssbuttons.io by @adamgiebl */
 .card {
   width: 190px;
@@ -266,4 +268,54 @@ section h2 {
   text-align: center;
   font-size: 3rem;
   margin-block-end: 3.5rem;
+}
+
+.quote-section {
+  background: #e5e7eb;
+}
+
+.quote-section blockquote {
+  font-size: 36px;
+  font-family: "carter", "serif";
+  font-style: italic;
+  margin: 1rem auto 3rem;
+}
+
+.quote-section p {
+  text-align: right;
+  font-weight: bold;
+}
+
+.cta-section {
+  background: #fafafa;
+}
+
+.cta-box {
+  background: #1f2937;
+  color: #fafafa;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+}
+
+.vert-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.col-80 {
+  flex: 70%;
+}
+
+.col-20 {
+  flex: 30%;
+}
+
+footer {
+  background: #1f2937;
+  height: 80px;
+  color: #fafafa;
+  padding: 1rem 5rem;
+  text-align: center;
 }
